@@ -5,7 +5,7 @@
         Kāpēc tas nepieciešams<br />
         un kā tas strādās?
       </h1>
-      <div class="textcol flex flex-col-reverse md:flex md:flex-row gap-20">
+      <div class="textcol flex flex-col-reverse md:flex md:flex-row gap-12 md:gap-28">
         <div class="w-full md:w-1/2">
           <h1 class="text-2xl pb-5">Algu–cenu spirāles novēršana</h1>
         <p class="pb-8">
@@ -20,8 +20,8 @@
           <img src="../assets/about-1.svg" alt="" />
         </div>
       </div>
-      <br class="my-16" />
-      <div class="textcol flex flex-col md:flex md:flex-row gap-20">
+      <br class="md:my-16" />
+      <div class="textcol flex flex-col md:flex md:flex-row gap-12 md:gap-28">
         <div class="w-full md:w-1/2">
           <img src="../assets/about-2.svg" alt="" />
         </div>
@@ -38,8 +38,8 @@
         </p>
         </div>
       </div>
-      <br class="my-16" />
-      <div class="textcol flex flex-col-reverse md:flex md:flex-row gap-20">
+      <br class="md:my-16" />
+      <div class="textcol flex flex-col-reverse md:flex md:flex-row gap-12 md:gap-28">
         <div class="w-full md:w-1/2">
           <h1 class="text-2xl pb-5">
           Piedāvātais bonusa<br />

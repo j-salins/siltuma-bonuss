@@ -10,8 +10,10 @@
   },
   "dependencies": {
     "@mdi/font": "5.9.55",
+    "gsap": "^3.11.3",
     "roboto-fontface": "*",
     "vue": "^3.2.45",
+    "vue3-smooth-scroll": "^0.8.1",
     "vuetify": "^3.0.0-beta.0",
     "webfontloader": "^1.0.0"
   },

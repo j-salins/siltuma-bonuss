@@ -759,6 +759,11 @@ graceful-fs@^4.1.2, graceful-fs@^4.2.4, graceful-fs@^4.2.9:
   resolved "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.10.tgz"
   integrity sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==
 
+gsap@^3.11.3:
+  version "3.11.3"
+  resolved "https://registry.npmjs.org/gsap/-/gsap-3.11.3.tgz"
+  integrity sha512-xc/iIJy+LWiMbRa4IdMtdnnKa/7PXEK6NNzV71gdOYUVeTZN7UWnLU0fB7Hi1iwiz4ZZoYkBZPPYGg+2+zzFHA==
+
 has-flag@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz"
@@ -1386,6 +1391,11 @@ vue@^3.0.0, vue@^3.2.0, vue@^3.2.25, vue@^3.2.45, vue@3.2.45:
     "@vue/runtime-dom" "3.2.45"
     "@vue/server-renderer" "3.2.45"
     "@vue/shared" "3.2.45"
+
+vue3-smooth-scroll@^0.8.1:
+  version "0.8.1"
+  resolved "https://registry.npmjs.org/vue3-smooth-scroll/-/vue3-smooth-scroll-0.8.1.tgz"
+  integrity sha512-9EN1aiBT2RtkIe1MoGiyGjUoLmqmlJ96R9/QVCylaiurHQ7oGu1SPzEoGJyxdhCa1q3qyMcX/pne1oTAn1UaoQ==
 
 vuetify@^3.0.0-beta.0, vuetify@^3.0.0-beta.4:
   version "3.0.5"

@@ -1,8 +1,8 @@
 <script>
 export default {
   data: () => ({
-    slider1: { val: 50, min: 1, max: 6 },
-    slider2: { val: 10, min: 50, max: 200 },
+    slider1: { val: 1, min: 1, max: 6 },
+    slider2: { val: 50, min: 50, max: 200 },
     slider3: { val: 10, min: 10, max: 300 },
   }),
   methods: {
@@ -14,7 +14,7 @@ export default {
 </script>
 <template>
   <div class="container mx-auto bg-white">
-    <div class="mx-auto w-full lg:w-2/3 py-11 lg:pb-32 sm:relative md:block">
+    <div class="mx-auto w-full lg:w-2/3 py-11 lg:pb-20 sm:relative md:block">
       <h1 class="text-3xl pb-10 px-4">
         Uzzini, cik siltuma bonuss izmaksātu <br />
         tavā uzņēmumā ar un bez nodokļiem*
@@ -62,8 +62,8 @@ export default {
           ></v-slider>
         </div>
       </div>
-      <div class="lg:w-1/3 flex flex-col content-around justify-around items-end pb-4 md:p-4 m-t-[-20px]  lg:pl-8">
-        <div class="w-2/3 lg:w-full">
+      <div class="calc-results lg:w-1/3 flex flex-col content-between items-end pb-4 md:p-4 lg:pl-8">
+        <div class="w-2/3 lg:w-full lg:mb-10">
             <p class="text-3xl">
               {{
                 this.format2(
@@ -97,7 +97,14 @@ export default {
 
 <style>
 .v-input.v-input--horizontal {
-min-height: 100px;
+  min-height: 100px;
+}
+@media (max-width: 460px) {
+  .calc-results {
+    margin-top: -36px;
+    padding-bottom: 36px;
+  }
+
 }
 .v-label.v-slider__label {
   max-width: 150px !important;
