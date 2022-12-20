@@ -17,8 +17,17 @@
 
     gtag('config', 'G-N75GXVNY02');
     </script>
-  <script type="module" crossorigin src="./assets/index-50d8e744.js"></script>
-  <link rel="stylesheet" href="./assets/index-e4152160.css">
+    <script src="https://www.google.com/recaptcha/api.js?render=6LeoZZIjAAAAAHvuexNHfMk-QsCcKRvkwbWpWuu2"></script>
+    <script>
+        grecaptcha.ready(function () {
+            grecaptcha.execute('6LeoZZIjAAAAAHvuexNHfMk-QsCcKRvkwbWpWuu2', {action: 'submit'}).then(function (token) {
+                console.info("got token: " + token);
+                document.getElementById('g-recaptcha-response').value = token;
+            });
+        });
+    </script>
+  <script type="module" crossorigin src="./assets/index-06a38c65.js"></script>
+  <link rel="stylesheet" href="./assets/index-073abbbe.css">
 </head>
 
 <body>
