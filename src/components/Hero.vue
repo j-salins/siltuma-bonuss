@@ -32,8 +32,8 @@ export default {
           <li><a href="#about" v-smooth-scroll class="px-4 py-2 rounded hover:text-white">Par Iniciatīvu</a></li>
           <li><a href="#about-1" v-smooth-scroll class="px-4 py-2 rounded hover:text-white">Situācija</a></li>
           <li><a href="#faq" v-smooth-scroll class="px-4 py-2 rounded hover:text-white">BUJ</a></li>
-          <li><a href="#survey" v-smooth-scroll class="px-4 py-2 rounded hover:text-white">Piedalies aptaujā</a></li>
-					<li><a href="#join-initiative" v-smooth-scroll class="hidden focus:outline-none rounded-lg border border-solid border-gray-700 hover:border-white px-4 py-2 w-min whitespace-nowrap">
+          <li><a href="https://forms.gle/EPkx4hfce9bKvBqV9" class="px-4 py-2 rounded hover:text-white">Piedalies aptaujā</a></li>
+					<li><a href="#join-initiative" v-smooth-scroll class="focus:outline-none rounded-lg border border-solid border-gray-700 hover:border-white px-4 py-2 w-min whitespace-nowrap">
           Pievienojies iniciatīvai</a></li>
         </ul>
         <div class="inline-flex md:hidden" x-data="{ open: false }">
@@ -81,12 +81,12 @@ export default {
             <ul class=" space-y-5 h-auto">
               <li><a href="#about" @click="showMobileMenu=!showMobileMenu" class="px-4 py-2 rounded">Par Iniciatīvu</a></li>
 							<li><a href="#about-1" @click="showMobileMenu=!showMobileMenu" class="px-4 py-2 rounded">Situācija</a></li>
-              <li><a href="#survey" @click="showMobileMenu=!showMobileMenu" class="px-4 py-2 rounded">Piedalies aptaujā</a></li>
+              <li><a href="https://forms.gle/EPkx4hfce9bKvBqV9" @click="showMobileMenu=!showMobileMenu" class="px-4 py-2 rounded">Piedalies aptaujā</a></li>
 							<li><a href="#faq" @click="showMobileMenu=!showMobileMenu" class="px-4 py-2 rounded">BUJ</a></li>
 
               <li class="mx-4 py-8">
                 <a href="#join-initiative" v-smooth-scroll @click="showMobileMenu=!showMobileMenu"
-                class="hidden focus:outline-none rounded-lg bg-white px-6 py-3 w-fit inline-block text-center whitespace-nowrap border border-solid hover:border-stone-400">
+                class="focus:outline-none rounded-lg bg-white px-6 py-3 w-fit inline-block text-center whitespace-nowrap border border-solid hover:border-stone-400">
               Pievienojies iniciatīvai</a>
               </li>
             </ul>
@@ -117,10 +117,10 @@ export default {
       </div>
     </div>
   </section>
-  <div id="about" class="container mx-auto bg-white">
+  <div id="about" class="container mx-auto bg-white relative">
     <div class="mx-auto w-10/12 lg:w-2/3 py-11 lg:pt-32 lg:pb-20 relative">
-      <div class="spot-1 absolute w-64 h-64 md:w-36 md:h-36 -translate-x-2/3 -translate-y-1/2 md:-translate-x-1/2 top-36 md:top-44"></div>
-      <h1 class="text-3xl pb-10">
+      <img src="../assets/spot-1.png" alt="" class="absolute -translate-y-20 -translate-x-44 md:-translate-y-40 md:-translate-x-1/2 z-0">
+      <h1 class="text-3xl pb-10 relative z-10">
         Iniciatīvas mērķis — vienkāršota atbalsta <br />
         politika siltuma bonusam.
       </h1>
@@ -139,7 +139,7 @@ export default {
           darba devēja sociālie un ienākuma nodokļi kopā veido 83% slogu.
         </p>
         <p class="pb-8">
-          <br>
+          <br/> <br/>
           Ja šīm piemaksām piemērotu atvieglojumus, līdzīgi kā ar veselības,
           dzīvības un negadījumu apdrošināšanas polisēm, kuras neapliek ar
           papildus nodokli, vairāk darba devēju varētu sniegt atbalstu saviem
@@ -155,6 +155,7 @@ export default {
         </p>
       </div>
     </div>
+    <img src="../assets/spot-l1.png" alt="" class="absolute right-0 top-1/4 hidden md:block">
   </div>
 </template>
 

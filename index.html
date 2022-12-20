@@ -17,6 +17,15 @@
 
     gtag('config', 'G-N75GXVNY02');
     </script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LeoZZIjAAAAAHvuexNHfMk-QsCcKRvkwbWpWuu2"></script>
+    <script>
+        grecaptcha.ready(function () {
+            grecaptcha.execute('6LeoZZIjAAAAAHvuexNHfMk-QsCcKRvkwbWpWuu2', {action: 'submit'}).then(function (token) {
+                console.info("got token: " + token);
+                document.getElementById('g-recaptcha-response').value = token;
+            });
+        });
+    </script>
 </head>
 
 <body>
