@@ -106,10 +106,9 @@ export default {
           Atbalsti siltuma <br />bonusu bez<br />
           nodokļiem
         </h1>
-        <a href="#join-initiative" v-smooth-scroll
-          class="focus:outline-none rounded-lg bg-white px-6 py-3 w-min whitespace-nowrap"
-        >
-          Pievienojies iniciatīvai
+        <a href="https://forms.gle/EPkx4hfce9bKvBqV9" target="_blank"
+          class="focus:outline-none rounded-lg bg-white px-6 py-3 w-min whitespace-nowrap">
+          Piedalies aptaujā
         </a>
       </div>
       <div class="lg:mt-0 lg:col-span-5 lg:flex">
